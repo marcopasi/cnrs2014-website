@@ -1,0 +1,93 @@
+table.contact {
+}
+
+table.contact td {
+    padding-top: 5px;
+}
+
+td.contact {
+    vertical-align: top;
+    text-align: right;
+    font-weight: bold;
+    padding-right: 50px;
+}
+
+.btn-brown {
+  color: #333333;
+  background-color: #d47e74;
+  border-color: #cccccc;
+}
+
+.btn-brown:hover,
+.btn-brown:focus,
+.btn-brown:active,
+.btn-brown.active {
+    background-color: #c46e64;
+}
+
+.btn-blue {
+  color: #333333;
+  background-color: #7fbbda;
+  border-color: #cccccc;
+}
+
+.btn-blue:hover,
+.btn-blue:focus,
+.btn-blue:active,
+.btn-blue.active {
+    background-color: #6fabca;
+}
+
+.btn-gray {
+  color: #333333;
+  background-color: #ded1c8;
+  border-color: #cccccc;
+}
+
+.btn-gray:hover,
+.btn-gray:focus,
+.btn-gray:active,
+.btn-gray.active {
+    background-color: #cecid7;
+}
+
+.portfolio {
+    background: #d47e74;
+    color: #ffffff;
+}
+
+a.service-link {
+    color: white;
+}
+
+.bg {
+    background: rgba(255, 255, 255, .7);
+    padding: 50px 0;
+}
+
+.introvar {
+    background: #ded1c8;
+}
+
+.bg-blue {
+    background: #428aca;
+    padding: 50px 0;
+}
+
+.callout a {
+    
+}
+
+/* publication list */
+.pubj {
+    font-family: sans-serif; font-style: italic;
+}
+.pubb {
+    font-weight: bold; font-family: sans-serif;
+}
+dt.enum {
+    float:left; clear:left; margin-left:1em; margin-right:1em;
+}
+dd.enum a {
+    font-weight: bold;
+}
