@@ -1,17 +1,4 @@
-table.contact {
-}
-
-table.contact td {
-    padding-top: 5px;
-}
-
-td.contact {
-    vertical-align: top;
-    text-align: right;
-    font-weight: bold;
-    padding-right: 50px;
-}
-
+/* buttons */
 .btn-brown {
   color: #333333;
   background-color: #d47e74;
@@ -51,11 +38,46 @@ td.contact {
     background-color: #cecid7;
 }
 
-.portfolio {
+/* containers */
+.contacts {
+    padding: 50px 0;
     background: #d47e74;
     color: #ffffff;
 }
 
+.publications {
+  padding: 50px 0;
+}
+.pubs-variation {
+    background: #ded1c8;
+}
+
+.links {
+  padding: 50px 0;
+}
+
+.cv {
+  background: #0a5175;
+  padding: 50px 0;
+}
+
+.spacer {
+  display: table;
+  height: 150px;
+  width: 100%;
+  background: url(../img/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* --- */
+a.cv-link {
+    color: white;
+    font-size: 200%;
+    font-weight: bold;
+}
 a.service-link {
     color: white;
 }
@@ -65,17 +87,25 @@ a.service-link {
     padding: 50px 0;
 }
 
-.introvar {
-    background: #ded1c8;
-}
 
 .bg-blue {
     background: #428aca;
     padding: 50px 0;
 }
 
-.callout a {
-    
+/* contacts */
+table.contact {
+}
+
+table.contact td {
+    padding-top: 5px;
+}
+
+td.contact {
+    vertical-align: top;
+    text-align: right;
+    font-weight: bold;
+    padding-right: 50px;
 }
 
 /* publication list */
