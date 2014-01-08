@@ -116,8 +116,21 @@ td.contact {
     font-weight: bold; font-family: sans-serif;
 }
 dt.enum {
-    float:left; clear:left; margin-left:1em; margin-right:1em;
+    float:left;
+    clear:left;
+    margin-left:1em;
+    margin-right:1em;
+    margin-top: 5px;
+}
+dd.enum {
+    margin-top: 5px;
 }
 dd.enum a {
     font-weight: bold;
+}
+
+/* general */
+a.not-a {
+    text-decoration: none;
+    color: black;
 }
