@@ -72,6 +72,10 @@
   background-size: cover;
 }
 
+footer.lopad {
+  padding: 20px 0;
+}
+
 /* --- */
 a.cv-link {
     color: white;
