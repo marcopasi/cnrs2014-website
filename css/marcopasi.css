@@ -39,12 +39,18 @@
 }
 
 /* containers */
+.header {
+    background-color: #b2eaff;
+}
 .contacts {
-    padding: 50px 0;
+    padding: 100px 0;
     background: #d47e74;
     color: #ffffff;
 }
-
+.services {
+  padding: 100px 0;
+  font-size: 125%;
+}
 .publications {
   padding: 50px 0;
 }
@@ -53,12 +59,12 @@
 }
 
 .links {
-  padding: 50px 0;
+  padding: 100px 0;
 }
 
 .cv {
   background: #0a5175;
-  padding: 50px 0;
+  padding: 100px 0;
 }
 
 .spacer {
@@ -73,7 +79,7 @@
 }
 
 footer.lopad {
-  padding: 20px 0;
+  padding: 50px 0;
 }
 
 /* --- */
@@ -119,15 +125,16 @@ td.contact {
 .pubb {
     font-weight: bold; font-family: sans-serif;
 }
+.enum {
+    margin-top: 15px;
+}
 dt.enum {
     float:left;
     clear:left;
     margin-left:1em;
     margin-right:1em;
-    margin-top: 5px;
 }
 dd.enum {
-    margin-top: 5px;
 }
 dd.enum a {
     font-weight: bold;
